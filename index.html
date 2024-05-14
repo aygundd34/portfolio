@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Döndü Aygün Portfolyo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+
+
+    <style>
+      body {
+       background-image: url("assets/bg.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+
+      } 
+      
+    </style>
+
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Döndü Aygün</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Hakkımda</a></li>
+          <li><a href="#experience">Yetenekler</a></li>
+          <li><a href="#projects">Projeler</a></li>
+          <li><a href="#certificates">Sertifikalar</a></li>
+          <li><a href="#contact">İletişim</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Döndü Aygün</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">Hakkımda</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Yetenekler</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projeler</a></li>
+          <li><a href="#certificates" onclick="toggleMenu()">Sertifikalar</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">İletişim</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="assets/avatar.jpg" alt="Profil" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Merhaba, Ben</p>
+        <h1 class="title">Döndü Aygün</h1>
+        <p class="section__text__p2">Bilgisayar Mühendisliği Öğrencisi</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/cv(son).pdf')"
+          >
+            Özgeçmiş İndir
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            İletişim Bilgileri
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn profil"
+            class="icon"
+            onclick="location.href='https://github.com/aygundd34'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="Github profil"
+            class="icon"
+            onclick="location.href='https://github.com/aygundd34'"
+          />
+        </div>
+      </div>
+    </section>
+
+
+    <section id="about">
+      <h1 class="title">Hakkımda</h1>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Eğitim</h3>
+              <p>Yozgat Bozok Üniversitesi<br />Bilgisayar Mühendisliği</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Merhaba, ben Döndü Aygün. 25 yaşındayım. Bilgisayar mühendisliği son sınıf öğrencisiyim. Mezun olmak için yalnızca stajları kalmış bir bilgisayar mühendisliği öğrencisiyim. 
+              Üniversite eğitimim sırasında çeşitli projelerde yer aldım ve bazılarında yürütücülüğü üstlendim. Bu projeler sayesinde problem çözme ve takım çalışmasının önemini kavradım. Ayrıca problemlere çözüm üretme yetisi kazandım.
+              bunlara ek olarak bilgisayar mühendisliği alanındaki gelişmeleri yakından takip ediyor ve sürekli olarak kendimi güncel tutmaya çalışıyorum.
+              Şu anda mezuniyete çok yakın olduğum bir dönemdeyim ve gelecekteki kariyer fırsatları için heyecanlıyım.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<!-- yetenekler -->
+
+    <section id="experience">
+      <h1 class="title">YETENEKLER</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <!-- <h2 class="experience-sub-title">PROGRAMLAMA DİLLERİ</h2> -->
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+
+
+
+
+          <div class="details-container">
+            <!-- <h2 class="experience-sub-title">PROGRAMLAMA DİLLERİ</h2> -->
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C#</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+    </section>
+
+    <!-- projeler -->
+    <section id="projects">
+      <h1 class="title">PROJELER</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/irl.JPG" 
+                alt="Proje 1"
+                class="project-img"
+              />
+            </div>
+            <br>
+            <h2 class="experience-sub-title project-title">Landing Page</h2>
+            
+            <p>Eğitim İrlanda için tasarladığım Landing page örneğidir. Tasarıma aşağıdaki linkten ulaşabilirsiniz.</p>
+            <br>
+            
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://aygundondu10.systeme.io/f0915920'"
+              >
+                Link
+              </button>
+            </div>
+          </div>
+          
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/res_web_s.JPG"  
+                alt="Project 2"
+                class="project-img" 
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Responsive Web Site Giriş</h2>
+            <p>HHTML CSS kullanılarak tasarlanmış ve mobil cihaza da uyum sağlayan çalışmadır.</p>
+            <br>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/aygundd34/web_site_giris_1'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/w_s_g.JPG" 
+                alt="Web Site Giriş"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Web Site Giriş ve Kayıt</h2>
+            <p>Giriş yapma veya yeni hesap oluşturma için modern bir tasarımdır.</p>
+            <br>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/aygundd34/web_site_giris_2'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/kafe.JPG"  
+                alt="Responsive Kafe Web Site"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Responsive Kafe Web Site</h2>
+            <p>Mobil uyumludur, bir kafe için gerekli olan temel özellikleri 
+              ve sayfaları içerir. </p>
+              <br>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/aygundd34/responsive_cafe_website'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects-2">
+      <div class="experience-details-container">
+        <div class="about-containers">
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/python.png" 
+                alt="python"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Temel Düzey Python Projeleri</h2>
+            <p>Temel düzeyde 47 farklı Python projesini içeren bir repodur. Python dilinin temel 
+            yapılarını anlamak isteyen veya başlangıç seviyesindeki Python 
+            programcılarına yöneliktir. </p>
+            <br>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/aygundd34/python'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/y_z_t.JPG" 
+                alt="python"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Yapay Zeka İle Üretilmiş Sahte Yüz Fotoğraflarının Tespiti</h2>
+            <p>Bu çalışma bitirme projemdir. Python programlama dili kullanılmıştır. 3000 yapay zeka üretilmiş 
+            sahte yüz fotoğrafı ve 3000 adet gerçek fotoğraftan oluşan veri seti kullanılmıştır. 
+            Fake yüz fotoğrafları 7 farklı mimaride denenmiş, 
+            farklı doğruluk değerleri kaydedilmiştir.</p>
+            <br>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/aygundd34/fake_face_photo_detection'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/tb.png" 
+                alt="python"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Yüz Bulma ve Tanıma Tabanlı Sınıf Yoklama Bilgi Yönetim Sistemi</h2>
+            <div class="btn-container">
+              <p>Yürücülüğünü üstlendiğim bu proje Tubitak 2209-A Üniversite Öğrencileri 
+              Araştırma Projeleri tarafından desteklendi. Bu çalışma, yoklama sistemini 
+              dijital ortama taşımayı hedeflemiştir. Python ile yazılmıştır</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- sertifikalar -->
+    <br>
+    <br>
+    <br>
+
+    <section id="certificates">
+      <h1 class="title">KATILIM VE SERTİFİKALAR</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <br>
+            <h2 class="experience-sub-title project-title">Cyber Security Days</h2>
+            
+            <p> Belgeye aşağıdaki linkten ulaşabilirsiniz.</p>
+            <br>
+            
+            <div class="btn-container">
+              <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/cs zirvesi sertifika.pdf')"
+            >
+              Belge Görüntüle
+            </button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <br>
+            <h2 class="experience-sub-title project-title">Tubitak-Kullanıcı Deneyimi ve Kullanılabilirlik Eğitimi</h2>
+            
+            <p> Belgeye aşağıdaki linkten ulaşabilirsiniz.</p>
+            <br>
+            
+            <div class="btn-container">
+              <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/Kullanıcı_deneyimli_kullanılabilirlik_eğitimi_tubitak.pdf')"
+            >
+              Belge Görüntüle
+            </button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <br>
+            <h2 class="experience-sub-title project-title">Tubitak-Mikroservis Mimarileri Eğitimi</h2>
+            
+            <p> Belgeye aşağıdaki linkten ulaşabilirsiniz.</p>
+            <br>
+            
+            <div class="btn-container">
+              <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/mikroservis_mimarileri_tubitak.pdf')"
+            >
+              Belge Görüntüle
+            </button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <br>
+            <h2 class="experience-sub-title project-title">Tubitak-Java Eğitimi</h2>
+            
+            <p> Belgeye aşağıdaki linkten ulaşabilirsiniz.</p>
+            <br>
+            
+            <div class="btn-container">
+              <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/java_tubitak.pdf')"
+            >
+              Belge Görüntüle
+            </button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <br>
+            <h2 class="experience-sub-title project-title">Tubitak-Mock-Up Figma Eğitimi</h2>
+            
+            <p> Belgeye aşağıdaki linkten ulaşabilirsiniz.</p>
+            <br>
+            
+            <div class="btn-container">
+              <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/mock-Up.pdf')"
+            >
+              Belge Görüntüle
+            </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificates-2">
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <h2 class="experience-sub-title project-title">Tubitak-Spring Eğitimi</h2>
+            
+            <p> Belgeye aşağıdaki linkten ulaşabilirsiniz.</p>
+            <br>
+            
+            <div class="btn-container">
+              <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/spring_tubitak.pdf')"
+            >
+              Belge Görüntüle
+            </button>
+            </div>
+          </div>
+
+
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <br>
+            <h2 class="experience-sub-title project-title">Cisco-Network Security</h2>
+            
+            <p> Belge ve Rozete aşağıdaki linklerden ulaşabilirsiniz.</p>
+            <br>
+            
+            <div class="btn-containerr">
+              <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/DÖNDÜAYGÜN-Enstitü Istanbul-network-security-certificate.pdf')"
+            >
+              Belge Görüntüle
+            </button>
+
+            <button
+              class="btn btn-color-2 certificates-btn"
+              onclick="location.href='https://www.credly.com/badges/705b5b30-5579-4480-be11-4331e191e3f0/public_url'"
+            >
+              Rozet
+            </button>
+            </div>
+          </div>
+
+
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <br>
+            <h2 class="experience-sub-title project-title">SBK- Siber Güvenlik Yaz Kampı</h2>
+            
+            <p> Belgeye aşağıdaki linkten ulaşabilirsiniz.</p>
+            <br>
+            
+            <div class="btn-container">
+              <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/yaz_kampi_sertifika.pdf')"
+            >
+              Belge Görüntüle
+            </button>
+            </div>
+          </div>
+
+
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <br>
+            <h2 class="experience-sub-title project-title">Cisco-CyberOps Associate</h2>
+            
+            <p> Belge ve Rozete aşağıdaki linklerden ulaşabilirsiniz.</p>
+            <br>
+            
+            <div class="btn-containerr">
+              <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/DÖNDÜAYGÜN-CyberOps Associa-certificate.pdf')"
+            >
+              Belge Görüntüle
+            </button>
+
+            <button
+              class="btn btn-color-2 certificates-btn"
+              onclick="location.href='https://www.credly.com/badges/2714c67a-6ad8-4d28-b31c-389e009db540/public_url'"
+            >
+              Rozet
+            </button>
+            </div>
+          </div>
+
+
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <br>
+            <h2 class="experience-sub-title project-title">Cisco-CCNAv7: Ağlara Giriş</h2>
+            
+            <p> Belge ve Rozete aşağıdaki linklerden ulaşabilirsiniz.</p>
+            <br>
+            
+            <div class="btn-containerr">
+              <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/DÖNDÜAYGÜN-Bilgisayar Ağlar-certificate.pdf')"
+            >
+              Belge Görüntüle
+            </button>
+
+            <button
+              class="btn btn-color-2 certificates-btn"
+              onclick="location.href='https://www.credly.com/badges/0422521e-f858-43df-bbd6-68e909d71804/public_url'"
+            >
+              Rozet
+            </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <section id="certificates-3">
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <h2 class="experience-sub-title project-title">Devlet Teşvikleri Tanıtım Günleri</h2>
+            
+            <p> Belgeye aşağıdaki linkten ulaşabilirsiniz.</p>
+            <br>
+            
+            <div class="btn-container">
+              <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/Teşvik tanıtım sertifika.pdf')"
+            >
+              Belge Görüntüle
+            </button>
+            </div>
+          </div>
+
+
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <br>
+            <h2 class="experience-sub-title project-title">Cisco-Linux Giriş</h2>
+            
+            <p> Belge ve Rozete aşağıdaki linklerden ulaşabilirsiniz.</p>
+            <br>
+            
+            <div class="btn-containerr">
+              <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/DÖNDÜAYGÜN-Linux Giris-certificate.pdf')"
+            >
+              Belge Görüntüle
+            </button>
+            </div>
+          </div>
+
+
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <br>
+            <h2 class="experience-sub-title project-title">Cisco-Siber Güvenliğe Giriş</h2>
+            
+            <p> Belge ve Rozete aşağıdaki linklerden ulaşabilirsiniz.</p>
+            <br>
+            
+            <div class="btn-containerr">
+              <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/DÖNDÜAYGÜN-Bölüm 1 Siber Gü-certificate (1) (1).pdf')"
+            >
+              Belge Görüntüle
+            </button>
+
+            <button
+              class="btn btn-color-2 certificates-btn"
+              onclick="location.href='https://www.credly.com/badges/faa756d3-e1fa-4e12-b48e-51c7498c9845/public_url'"
+            >
+              Rozet
+            </button>
+            </div>
+          </div>
+
+
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <br>
+            <h2 class="experience-sub-title project-title">E-Bursum-Siber Güvenlik 101</h2>
+            
+            <p> Belge ve Rozete aşağıdaki linklerden ulaşabilirsiniz.</p>
+            <br>
+            
+            <div class="btn-containerr">
+              <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/siber güvenlik 101 sertifika.pdf')"
+            >
+              Belge Görüntüle
+            </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    
+
+<!-- bağlantı -->
+
+    <section id="contact">
+      <p class="section__text__p1"><br></p>
+      <h1 class="title"><br>İletişime Geç</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:aygundondu10@gmail.com">aygundondu10@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/d%C3%B6nd%C3%BC-ayg%C3%BCn-302330202/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">Hakkımda</a></li>
+            <li><a href="#experience">Yetenekler</a></li>
+            <li><a href="#projects">Projeler</a></li>
+            <li><a href="#certificates">Sertifikalar</a></li>
+            <li><a href="#contact">Bağlantı</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p> &#169; 2024 Döndü Aygün. Tüm Hakları Saklıdır.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
